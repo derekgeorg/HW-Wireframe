@@ -1,0 +1,70 @@
+/* This declaration box handles font, color, background, width and font-size 
+of all body elements */
+body { font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* This chnages background color and centers text of the following elements */
+header, nav, section, footer, aside {
+    background: #ebebeb;
+    text-align: center;
+}
+/* This is the header div with header text */
+header {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* This is the nav div with nav text */
+nav {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/*This is the section div with section text. article div with h1 + p are also included here */
+section {
+    width: 495px;
+    height: 250px;
+    float: left;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+/* article lies within section and includes divs h1 & p */
+article {
+    color: #ebebeb;
+    background: #777;
+    width: auto;
+    margin-top: 5%;
+    padding: 20px;
+}
+/* h1 & p element's padding, color and background are determined here */
+h1, p {
+    padding: 16px;
+    color: #777;
+    background: #ebebeb;
+}
+h1 {
+    margin-bottom: 5px;
+}
+p {
+    margin-bottom: 5px;
+}
+
+/* This is the aside div with aside text */
+aside {
+    width: 350px;
+    height: 250px;
+    float: right; clear: right;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+/* This is the footer dive with footer text */
+footer {
+    padding: 35px;
+    margin-top: 20px;
+    clear: both;
+}
